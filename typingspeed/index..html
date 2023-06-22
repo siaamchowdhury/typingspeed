@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="randomQuote"></div>
+
+
+    <input id="inputWord" type="text" autofocus="true">
+
+
+    <div id="keySound">
+
+        <audio id="upperRowSound">
+            <source src="audio/UpperRow.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="homeRowSound">
+            <source src="audio/HomeRow.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="bottomRowSound">
+            <source src="audio/BottomRow.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="backspaceSound">
+            <source src="audio/Backspace.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="enterSound">
+            <source src="audio/Enter.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="shiftSound">
+            <source src="audio/Shift.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="spaceBarSound">
+            <source src="audio/SpaceBar.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="tabSound">
+            <source src="audio/Tab.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="capsLockSound">
+            <source src="audio/SpaceBar.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div id="keyboard">
+
+        <div id="numberRow">
+            <button id="upperComma">`</button>
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="zero">0</button>
+            <button id="minus">-</button>
+            <button id="plus">+</button>
+            <button id="backspace">backspace</button>
+        </div>
+
+        <div id="upperRow">
+            <button id="tab">tab</button>
+            <button id="q">q</button>
+            <button id="w">w</button>
+            <button id="e">e</button>
+            <button id="r">r</button>
+            <button id="t">t</button>
+            <button id="y">y</button>
+            <button id="u">u</button>
+            <button id="i">i</button>
+            <button id="o">o</button>
+            <button id="p">p</button>
+            <button id="openingBracket">[</button>
+            <button id="closingBracket">]</button>
+            <button id="slash">\</button>
+        </div>
+
+
+        <div id="homeRow">
+            <button id="capsLock">caps lock</button>
+            <button id="a">a</button>
+            <button id="s">s</button>
+            <button id="d">d</button>
+            <button id="f">f</button>
+            <button id="g">g</button>
+            <button id="h">h</button>
+            <button id="j">j</button>
+            <button id="k">k</button>
+            <button id="l">l</button>
+            <button id="semicolon">;</button>
+            <button id="quote">'</button>
+            <button id="enter">Enter</button>
+        </div>
+
+
+        <div id="bottomRow">
+            <button id="leftShift">shift</button>
+            <button id="z">z</button>
+            <button id="x">x</button>
+            <button id="c">c</button>
+            <button id="v">v</button>
+            <button id="b">b</button>
+            <button id="n">n</button>
+            <button id="m">m</button>
+            <button id="comma">,</button>
+            <button id="fullStop">.</button>
+            <button id="questionMark">?</button>
+            <button id="rightShift">shift</button>
+        </div>
+
+        <div id="spaceBar">
+            <button id="btnSpacebar"></button>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

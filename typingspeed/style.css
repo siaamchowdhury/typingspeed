@@ -1,0 +1,116 @@
+#keyboard {
+    margin-left: 23%;
+    margin-top: 2%;
+}
+
+div {
+    margin-top: 5px;
+}
+
+#homeRow {
+    margin-left: 10px;
+}
+#bottomRow {
+    margin-left: 35px;
+}
+#btnSpacebar {
+    margin-left: 2px;
+}
+
+/* #ONE,#TWO,#THREE,#FOUR,#FIVE,#SIX,#SEVEN,
+#EIGHT,#NINE,#ZERO,#MINUS,#PLUS,
+#UPPERCOMMA,#Q,#W,#E,#R,#T,#Y,#U,#I, #O,#P,#OPENINGBRACKET,
+#CLOSINGBRACKET,#SLASH,#A,#S,#D,#F,#G,#H,#J,
+#K,#L,#SEMICOLON,#QUOTE,#Z,#X,#C,#V,#B,#N,#M,#COMMA,#FULLSTOP,#QUESTIONMARK {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eae7e7;
+} */
+
+.incorrect {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.correct {
+    color: rgb(54, 225, 54);
+}
+
+#randomQuote {
+    width: 750px;
+    height: 10px;
+    margin-left: 24%;
+    margin-top: 2%;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#inputWord {
+    width: 48pc;
+    height: 3pc;
+    margin-left: 23%;
+    margin-top: 20%;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 30px;
+    padding-left: 10px;
+    background-color: #f5f2f2;
+}
+#inputWord:focus {
+    outline: none;
+}
+
+
+
+#one,#two,#three,#four,
+#five,#six,#seven,#eight,
+#nine,#zero,#minus,#plus,
+#upperComma, #q, #w, #e,
+#r, #t, #y, #u, #i, #o, #p,
+#openingBracket, #closingBracket,
+#slash, #a, #s, #d, #f, #g, #h, #j, #k, #l,
+#semicolon, #quote, #z, #x, #c, #v, #b, #n, #m,
+#comma, #fullStop, #questionMark
+
+ {
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eae7e7;
+}
+
+#tab, #enter {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eae7e7;
+
+}
+
+#leftShift, #rightShift {
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #eae7e7;
+    border-radius: 10px;
+}
+
+#capsLock, #backspace{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #eae7e7;
+    border-radius: 10px;
+}
+
+#btnSpacebar {
+    width: 780px;
+    height: 55px;
+    border: none;
+    background-color: #eae7e7;
+    border-radius: 10px;
+}
